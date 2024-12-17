@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+  }
+  header {
+    background-color: #cc0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .container {
+    display: flex;
+    flex: 1;
+  }
+  .sidebar {
+    background-color: #ffe6e6;
+    padding: 20px;
+    width: 300px;
+  }
+
+  h2 {
+    color: #cc0000;
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff4d4d;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff4d4d;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color:#ff4d4d;
+  }
+
+  .login-form {
+    width: 100%;
+    padding: 10px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  #user-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .user-post {
+    background-color: #fff;
+    border: 1px solid #ff4d4d;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  h2 {
+    margin: 0;
+    color: #cc0000;
+    font-size: 18px;
+  }
+
+  h3 {
+    margin: 0;
+    color: #b30000;
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+    color: #800000;
+    margin: 2px 0;
+  }
+
+  .highlight {
+    color: #b30000;
+  }
+
+  .post-body {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+  }
